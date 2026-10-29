@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="demowebshoptest.WebShopRegisterTest">
+        <methods>
+          <include name="openRegistrationPage"/>
+          <include name="setup"/>
+          <include name="browserclose"/>
+          <include name="teardown"/>
+          <include name="invalidlogin"/>
+          <include name="intializepages"/>
+        </methods>
+      </class> <!-- demowebshoptest.WebShopRegisterTest -->
+      <class name="demowebshoptest.WebShopHomeTest">
+        <methods>
+          <include name="linkcount"/>
+          <include name="setup"/>
+          <include name="browserclose"/>
+          <include name="teardown"/>
+          <include name="intializepages"/>
+        </methods>
+      </class> <!-- demowebshoptest.WebShopHomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
